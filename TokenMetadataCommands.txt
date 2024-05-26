@@ -1,0 +1,6 @@
+spl-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb create-token --transfer-fee 50 5000  --enable-metadata
+spl-token initialize-metadata 8J8Hgyn8x1veiFP4AHrFFmzQHX15QvcCs1nQCS5Sgm3L <YOUR_TOKEN_NAME> <YOUR_TOKEN_SYMBOL> <YOUR_TOKEN_URI>
+spl-token initialize-metadata 8J8Hgyn8x1veiFP4AHrFFmzQHX15QvcCs1nQCS5Sgm3L SillyDavoToken SDT https://github.com/davidmansion/crypto/blob/main/metadata.json
+spl-token create-account 8J8Hgyn8x1veiFP4AHrFFmzQHX15QvcCs1nQCS5Sgm3L
+spl-token mint 8J8Hgyn8x1veiFP4AHrFFmzQHX15QvcCs1nQCS5Sgm3L 100 <optional address to mint to>
+spl-token transfer --fund-recipient 8J8Hgyn8x1veiFP4AHrFFmzQHX15QvcCs1nQCS5Sgm3L 10 278hQVS8138iRuhYuBMGLeaUp4vTncbfnPuCZv2vREK4 
